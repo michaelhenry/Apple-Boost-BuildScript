@@ -51,7 +51,7 @@ MACOS_SDK_VERSION=`xcrun --sdk macosx --show-sdk-version`
 MACOS_SDK_PATH=`xcrun --sdk macosx --show-sdk-path`
 
 MACOS_ARCHS=("x86_64")
-IOS_ARCHS=("armv7 arm64")
+IOS_ARCHS=("armv7 arm64 x86_64")
 
 # Applied to all platforms
 CXX_FLAGS="-std=c++14 -stdlib=libc++"
